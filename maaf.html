@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>maaf karna sering buat salah</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fdf0f3;--ink:#3a2148;--soft:#7a5a8a;--card:#ffffff;--line:#ecd3df;--rose:#e0476a;--lilac:#8e6bd1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#241636;--ink:#ffe3d6;--soft:#c3a8d8;--card:#33214a;--line:#4d3668;--rose:#ff7a90;--lilac:#cdb4f6}}
+:root[data-theme="dark"]{--bg:#241636;--ink:#ffe3d6;--soft:#c3a8d8;--card:#33214a;--line:#4d3668;--rose:#ff7a90;--lilac:#cdb4f6}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:inherit}
+body{text-transform:lowercase;margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.7 Nunito,system-ui,sans-serif}
+main{max-width:620px;margin:0 auto;padding:0 20px 80px}
+section{padding:56px 0 8px}
+h1,h2{font-family:Caveat,'Segoe Script',cursive;font-weight:700;line-height:1.05;margin:0 0 14px}
+h1{font-size:clamp(52px,15vw,84px);color:var(--rose);transform:rotate(-3deg);margin-top:40px}
+h2{font-size:clamp(36px,9vw,48px)}
+.lead{color:var(--soft);font-size:18px;max-width:46ch}
+.setup{display:grid;gap:10px;margin:24px 0 0;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.setup label{font-size:14px;color:var(--soft);font-weight:600}
+input{text-transform:lowercase;width:100%;font:inherit;color:var(--ink);background:transparent;border:0;border-bottom:2px solid var(--line);padding:6px 2px;outline:none}
+input:focus-visible{border-color:var(--rose)}
+.letter{background:var(--card);border:1px solid var(--line);border-radius:6px 22px 6px 22px;padding:24px 22px;max-width:60ch}
+.letter p{margin:0 0 14px}
+.letter .sign{font-family:Caveat,cursive;font-size:30px;color:var(--rose);margin:0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:16px}
+.q p.t{font-weight:800;margin:0 0 12px}
+.opts{display:grid;gap:8px}
+button{font:inherit;color:var(--ink);background:transparent;border:2px solid var(--line);border-radius:12px;padding:10px 14px;text-align:left;cursor:pointer;min-height:44px}
+button:hover{border-color:var(--lilac)}
+button:focus-visible{outline:3px solid var(--lilac);outline-offset:2px}
+button.picked{border-color:var(--rose);background:color-mix(in srgb,var(--rose) 14%,transparent)}
+button[disabled]{cursor:default;opacity:.7}
+button.picked[disabled]{opacity:1}
+.cmt{margin:12px 0 0;font-family:Caveat,cursive;font-size:26px;line-height:1.2;color:var(--rose);min-height:0;animation:pop .25s ease-out}
+@keyframes pop{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.meter{height:22px;border-radius:99px;background:var(--line);overflow:hidden;margin:14px 0}
+.meter i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--lilac),var(--rose));transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.res{display:none;background:var(--card);border:2px solid var(--rose);border-radius:18px;padding:22px;text-align:center}
+.res.on{display:block;animation:pop .3s ease-out}
+.res .pct{font-family:Caveat,cursive;font-size:72px;color:var(--rose);line-height:1}
+.res .v{font-weight:800;font-size:20px;margin:6px 0}
+.again{margin-top:12px;text-align:center;border-color:var(--rose)}
+.close{padding-top:64px;text-align:center}
+.close h2{color:var(--rose)}
+.close p{max-width:44ch;margin:0 auto 14px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+
+<section>
+  <h1>maaf karna sering buat salah</h1>
+  <p class="lead">aku nggak mau bikin alasan. aku cuma mau kamu tau kalau aku beneran nyesel, dan halaman ini aku bikin khusus buat kamu, sayang.</p>
+</section>
+
+<section>
+  <h2>surat kecil</h2>
+  <div class="letter">
+    <p>untuk mella sayang,</p>
+    <p>aku salah karena <b>sering bikin kamu kesel</b>. bukan karena kamu lebay, bukan karena kamu salah paham. aku yang salah, titik.</p>
+    <p>waktu itu aku sibuk bela diri, padahal yang kamu butuhin cuma didengerin. aku sadar sekarang, menang debat nggak ada gunanya kalau akhirnya kamu sedih.</p>
+    <p>aku nggak minta kamu langsung maafin. aku cuma minta kesempatan buat nunjukin kalau aku bisa lebih baik, dimulai dari hari ini.</p>
+    <p class="sign">maaf aku menyesal, dino</p>
+  </div>
+</section>
+
+<section>
+  <h2>sidang buat dino</h2>
+  <p class="lead">sayang, ini giliran kamu. jawab sesuka hati. dino nggak boleh protes, dino cuma boleh nunggu hasilnya.</p>
+  <div id="quiz" style="margin-top:22px"></div>
+  <div class="res" id="res" aria-live="polite">
+    <div>tingkat kesel sayang</div>
+    <div class="pct" id="pct">0%</div>
+    <div class="meter"><i id="bar"></i></div>
+    <div class="v" id="v"></div>
+    <p id="vt" style="margin:0"></p>
+    <button class="again" id="again">ulang sidang</button>
+  </div>
+</section>
+
+<section class="close">
+  <h2>terakhir ya...</h2>
+  <p>kamu boleh masih kesel. kamu boleh diem dulu. aku bakal tetep di sini, nggak kemana-mana.</p>
+  <p>makasih udah mau sabar sama aku. aku sayang kamu, dan aku mau belajar jadi orang yang lebih baik buat kamu.</p>
+  <h2 style="margin-top:20px">maafin aku ya?</h2>
+</section>
+
+</main>
+<script>
+var Q=[
+{t:"sayang, seberapa kesel kamu sama dino sekarang?",o:[["dikit doang",1,"dino lega sebentar. terus dino sadar kamu bilang 'dikit' sambil nggak natap dino."],["lumayan, belum mau diajak ngomong",2,"dino bakal ngetik, hapus, ngetik, hapus. sampai jam 3 pagi."],["level pengen ngilang dari bumi",3,"dino langsung googling 'cara minta maaf ke orang yang pengen ngilang'. hasilnya nggak ada."]]},
+{t:"kamu lagi duduk di tank baja. dino berdiri di depan sambil bawa bunga. kamu...",o:[["tembak",3,"dino kena confetti. tapi suara dentumannya bikin dino trauma seminggu."],["biarin aja, tank-nya diparkir",2,"dino lega, sampai tank-nya nyalain mesin pelan-pelan. cuma buat nakut-nakutin."],["klakson panjang sambil lewat",1,"dino nyingkir. bunganya kelindes. perasaannya juga."]]},
+{t:"dino kirim chat 'maaf ya' doang. kamu...",o:[["read doang",2,"centang biru muncul. dino mandangin layar 40 menit tanpa kedip."],["bales 'oh'",3,"'oh'. satu kata. dino nggak tidur sampai pagi buat nafsirin titik ada atau nggak."],["screenshot, kirim ke grup temen",3,"dino sekarang terkenal di grup yang bahkan nggak dino ikutin."]]},
+{t:"dino dateng bawa makanan favorit kamu. kamu...",o:[["makan, tapi tetep cuekin dino",2,"dino nonton kamu makan sambil nahan senyum dan nahan nangis, dua-duanya."],["suruh taro depan pintu, pintu ditutup",2,"dino nunggu di luar sambil ngomong sendiri ke pintu. tetangga mulai lihat."],["tolak, terus beli sendiri di depan dino",3,"kamu beli porsi yang lebih gede. dino disuruh pegang tasnya."]]},
+{t:"hukuman paling pas buat dino?",o:[["cuci piring seminggu",1,"dino cuci sambil nyanyi pelan. sabunnya habis di hari ketiga, dino nggak berani bilang."],["dengerin kamu ngomong 3 jam, nggak boleh bantah",3,"dino nggak boleh nyela, nggak boleh ngeles, cuma boleh bilang 'iya, aku salah'. 180 menit."],["dilarang main game sebulan",2,"dino bakal nonton orang lain main. sambil ngerasa tersiksa dan tau itu pantas."]]}
+];
+var MAX=15,score=0,done=0;
+var quiz=document.getElementById('quiz'),res=document.getElementById('res');
+function build(){
+  quiz.innerHTML='';score=0;done=0;res.classList.remove('on');
+  Q.forEach(function(q){
+    var box=document.createElement('div');box.className='q';
+    var p=document.createElement('p');p.className='t';p.textContent=q.t;box.appendChild(p);
+    var g=document.createElement('div');g.className='opts';
+    var c=document.createElement('p');c.className='cmt';c.style.display='none';
+    q.o.forEach(function(o){
+      var b=document.createElement('button');
+      b.textContent=o[0];
+      b.onclick=function(){
+        score+=o[1];done++;
+        Array.prototype.forEach.call(g.children,function(x){x.disabled=true});
+        b.classList.add('picked');
+        c.textContent='nasib dino: '+o[2];c.style.display='block';
+        if(done===Q.length)finish();
+      };
+      g.appendChild(b);
+    });
+    box.appendChild(g);box.appendChild(c);quiz.appendChild(box);
+  });
+}
+function finish(){
+  var pc=Math.round(score/MAX*100),v,vt;
+  if(pc<50){v="dino selamat, untuk sementara";vt="sayang masih punya sisa sabar. dino boleh napas, tapi jangan sampai salah ngomong lagi."}
+  else if(pc<80){v="dino dalam pengawasan ketat";vt="sayang masih kesel dan dino tau. mulai sekarang dino harus dengerin dulu, ngeles belakangan, atau nggak sama sekali."}
+  else{v="dino dalam bahaya besar";vt="sayang siap, tank-nya juga siap. satu-satunya jalan: temuin dino langsung, dengerin sampai selesai, dan minta maaf yang bener."}
+  document.getElementById('pct').textContent=pc+'%';
+  document.getElementById('v').textContent=v;
+  document.getElementById('vt').textContent=vt;
+  res.classList.add('on');
+  var bar=document.getElementById('bar');bar.style.width='0';
+  setTimeout(function(){bar.style.width=pc+'%'},60);
+  res.scrollIntoView({behavior:'smooth',block:'center'});
+}
+document.getElementById('again').onclick=function(){build();quiz.scrollIntoView({behavior:'smooth'})};
+build();
+</script>
+</body>
+</html>
